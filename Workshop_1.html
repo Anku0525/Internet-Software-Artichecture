@@ -15,31 +15,32 @@
             <div class  = "first">
                 <div class = "topic" ><a href="#">Coff<span>ee</span></a></div>
                 <ul class = "menu">
-                    <li><a href = "#">home</a></li>
-                    <li><a href = "#">Menu </a></li>
-                    <li><a href = "#">Contact Us</a></li>
-                    <li><a href = "#">Job Application</a></li>
+                    <li><a href = "#home">Home</a></li>
+                    <li><a href = "#menu">Menu </a></li>
+                    <li><a href = "#contact">Contact Us</a></li>
+                    <li><a href = "#job application">Job Application</a></li>
                 </ul>
             </div>
         </nav>
     </div>
 
-    <section class ="Home">
+    <section class ="Home" id="home">
         <div class = "main" >
             <div class="home-content">
-                <div class="text-1">welcome</div><br>
-                <div class="text-2"> to the </div><br>
+                <div class="text-1">welcome</div>
+                <div class="text-2"> to the </div>
                 <div class="text-3"> Special Coffee shop</div><br>
             </div>
         </div>
     </section>
     
-    <h2>About Us</h2>
-    <p>Our coffee shop offers a variety of specialty coffee drinks made with locally roasted beans. We also serve a selection of pastries and sandwiches. Our cozy atmosphere is perfect for catching up with friends or getting some work done.</p>
     
     <section id="hero">
+
+        <h2>About Us</h2>
+        <p>Our coffee shop offers a variety of specialty coffee drinks made with locally roasted beans. We also serve a selection of pastries and sandwiches. Our cozy atmosphere is perfect for catching up with friends or getting some work done.</p>
         <p>Enjoy our fresh coffee and delicious pastries</p>
-        <a href="#">Order Now</a>
+        <a href="#menus">Order Now</a>
     </section>
     
     <section id="menus">
@@ -48,13 +49,13 @@
             <li>
                 <h3>Coffee</h3>
                 <p>hot and iced coffee drinks</p>
-                <img src="coffee.jpg" alt="Coffee">
+                <img src="coffee.jpg" alt="Coffee" width = "156px" height = "200px">
             </li>
             
             <li>
                 <h3>Pastries</h3>
                 <p>Indulge in our freshly baked pastries, including croissants and muffins</p>
-                <img src="pastries.jpg" alt="Pastries">
+                <img src="pastries.jpg" alt="Pastries" width = "165px" height = "185px">
             </li>
         </ul>
     </section>
@@ -70,7 +71,7 @@
         <p>Address: 123 Main St, Anytown, USA</p>
     </section>
 
-    <section class = "Job Application">
+    <section id = "Job Application">
         <h1>Job Application</h1>
 	<form action="submit-form.php" method="post">
 		<label for="name">Name:</label>
@@ -98,13 +99,13 @@
 
 		<button type="submit">Submit</button>
 	</form>
+    <div class="footer">
+        <p>&copy; 2023 The Coffee Shop</p>
+    </div>
 </section>
 
 </main>
 
-<footer>
-    <p>&copy; 2023 The Coffee Shop</p>
-</footer>
 
 </body>
 </html>
